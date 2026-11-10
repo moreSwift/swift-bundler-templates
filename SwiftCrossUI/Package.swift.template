@@ -4,11 +4,11 @@ import PackageDescription
 
 let package = Package(
 	name: "{{PACKAGE}}",
-	platforms: [.macOS(.v10_15), .iOS(.v13), .tvOS(.v13), .macCatalyst(.v13)],
+	platforms: [.macOS(.v12), .iOS(.v15), .tvOS(.v15), .visionOS(.v1)],
 	dependencies: [
 		.package(
 			url: "https://github.com/moreSwift/swift-cross-ui",
-			.upToNextMinor(from: "0.7.0")
+			.upToNextMinor(from: "0.10.0")
 		),
 	],
 	targets: [
