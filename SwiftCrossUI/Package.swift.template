@@ -8,7 +8,7 @@ let package = Package(
 	dependencies: [
 		.package(
 			url: "https://github.com/moreSwift/swift-cross-ui",
-			.upToNextMinor(from: "0.10.0")
+			.upToNextMinor(from: "0.11.0")
 		),
 	],
 	targets: [
